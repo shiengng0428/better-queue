@@ -1,0 +1,7 @@
+[
+    { "queueIndex": 1 },
+    { "queueIndex": 2, "retry": true, "maxRetries": 5, "retryDelay": 1000 },
+    { "queueIndex": 3, "retry": false },
+    { "queueIndex": 4, "retry": true, "maxRetries": 3, "retryDelay": 2000 },
+    { "queueIndex": 5, "retry": true, "maxRetries": 2, "retryDelay": 1000 }
+]
